@@ -18,13 +18,13 @@ chapter8/a2a/
 
 ```bash
 # 가상환경 생성
-python -m venv .venv
+uv venv .venv --python=3.13
 
 # 가상환경 활성화
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
 # 의존성 설치
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 ```
 
 ## 사용법
