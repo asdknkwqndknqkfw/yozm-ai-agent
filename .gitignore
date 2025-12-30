@@ -105,5 +105,6 @@ $RECYCLE.BIN/
 
 # Pycharm IDE 설정 폴더
 .idea
+__pycache__
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,pycharm+all,linux
